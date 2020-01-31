@@ -6,6 +6,6 @@ from pycdk.pycdk_stack import PycdkStack
 
 
 app = core.App()
-PycdkStack(app, "pycdk")
+PycdkStack(app, "PycdkStack", env=core.Environment(region="eu-central-1"))
 
 app.synth()
