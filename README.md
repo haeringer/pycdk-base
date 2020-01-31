@@ -53,5 +53,5 @@ $ cdk deploy
 When the deployment is complete, there should be a line at the end of the output showing the URL at which the API Gateway endpoint is published, for example:
 
 ```
-PycdkStack.Endpoint8024A810 = https://4kwrtw1a2e.execute-api.eu-central-1.amazonaws.com/prod/
+PycdkStack.PycdkStackEndpoint8024A810 = https://4kwrtw1a2e.execute-api.eu-central-1.amazonaws.com/prod/
 ```
