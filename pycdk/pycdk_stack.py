@@ -20,4 +20,5 @@ class PycdkStack(core.Stack):
         apigw.LambdaRestApi(
             self, 'PycdkStackEndpoint',
             handler=hello_lambda,
+            endpoint_types=[apigw.EndpointType.REGIONAL],
         )
